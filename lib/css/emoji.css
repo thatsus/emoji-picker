@@ -66,7 +66,7 @@ img.emoji {
     -webkit-user-select: none;
     -o-user-select: none;
     user-select: none;
-    border: 1px solid #bcbcbc;
+    border: 1px solid #d2dbe3;
     border-radius: 3px;
     padding: 3px 5px;
 }
