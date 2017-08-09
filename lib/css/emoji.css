@@ -54,8 +54,8 @@ img.emoji {
 
 .emoji-picker-icon {
     position: absolute;
-    right: 10px;
-    top: 5px;
+    right: 0px;
+    top: -30px;
     font-size: 20px;
     opacity: 0.7;
     z-index: 100;
@@ -66,11 +66,14 @@ img.emoji {
     -webkit-user-select: none;
     -o-user-select: none;
     user-select: none;
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
+    padding: 3px 5px;
 }
 
-.emoji-picker-icon.parent-has-scroll {
+/*.emoji-picker-icon.parent-has-scroll {
     right: 28px;
-}
+}*/
 
 .emoji-picker-icon:hover {
     opacity: 1;
